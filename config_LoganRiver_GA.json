@@ -1,0 +1,22 @@
+{
+    "forcing_file":"./forcing_data.csv",
+    "angular_velocity":15.0,
+    "latitude":41.9,
+    "snow_parameters":{
+                   "threshold_temperature_TT":1.8143745717951207,
+                   "snowfall_correction_factor_SFCF":0.5015184854651568,
+                   "snow_melt_degreeDay_factor_CFMAX":1.0453039324599795,
+                   "Water_holding_capacity_CWH":0.004306597164329838,
+                   "refreezing_coefficient_CFR":0.001752962835372015},
+    "soil_parameters":{
+                   "field_capacity_FC":497.37048717164447,
+                   "evaporation_reduction_threshold_LP":0.4807398594939122,
+                   "shape_coefficient_beta":1.1433030788102756},
+    "reservoir_parameters":{
+                   "recession_constant_near_surface_K0":0.10246441657521897,
+                   "recession_constant_upper_storage_K1":0.045114558357045205,
+                   "recession_constant_lower_storage_K2":0.03092972149952434,
+                   "threshold_for_shallow_storage_UZL":69.54142585922997,
+                   "lower_to_upper_maxflow_Percolation":2.991599431652427},
+    "routing_parameters":{"MAXBAS": 1}
+}
